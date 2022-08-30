@@ -1,9 +1,10 @@
 import React from 'react';
 
+//Navigation bar that contains three blank links
 export default class NavBar extends React.Component {
     render() {
         return (
-            <div className="top">
+            <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <a className="navbar-brand" href="#">Navbar</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">

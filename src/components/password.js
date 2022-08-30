@@ -1,7 +1,15 @@
 import React from 'react';
 
-export default class Password extends React.Component {
+//input for passwords
+export default class Password1 extends React.Component {
     render() {
-        return <input type="password">Enter Password</input>
+        return (
+        <div> 
+            <form>
+            Password: 
+                <input type="password" />
+            </form>
+        </div>
+        )
     }
 }
